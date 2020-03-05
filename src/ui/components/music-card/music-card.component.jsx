@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import StarRatings from 'react-star-ratings'
+
+import { useMusics } from 'app-stores/musics/musics.hook'
 
 import './music-card.style.scss'
-import { useMusics } from 'app-stores/musics/musics.hook'
-import { Stars } from 'app-components'
-import StarRatings from 'react-star-ratings'
 
 export const MusicCard = ({ music }) => {
   const { id, name, artist, image, rating = 0, totalVotes = 0 } = music
@@ -40,8 +40,6 @@ export const MusicCard = ({ music }) => {
           </span>
         </div>
       </div>
-      {/* {artist} - {name} ({rating} - {totalVotes} votes) */}
-      <Stars onClick={handleRate} />
     </div>
   )
 }
