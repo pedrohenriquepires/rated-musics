@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "artist": "Taylor Swift",
+    "name": "All Too Well",
+    "image": "https://is3-ssl.mzstatic.com/image/thumb/Music118/v4/71/b6/f4/71b6f4dc-741f-aca3-0c79-f0705401e269/00602537223695.rgb.jpg/600x600bf.png",
+    "votes": 0,
+    "totalVotes": 0
+  },
+  {
+    "id": 2,
+    "artist": "Taylor Swift",
+    "name": "Shake It Off",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61m85Bk6HEL._AC_SY355_.jpg",
+    "votes": 0,
+    "totalVotes": 0
+  },
+  {
+    "id": 3,
+    "artist": "Foo Fighters",
+    "name": "Rope",
+    "image": "https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/9/1/2/d/19306.jpg",
+    "votes": 0,
+    "totalVotes": 0
+  },
+  {
+    "id": 4,
+    "artist": " Slash",
+    "name": "World On Fire",
+    "image": "https://hmrock.com.br/wp-content/uploads/2016/03/e2f132ff-6c9e-4d62-8f3b-b03b86bacde9-1410167482_High_Res_Amended_Cover_1500.jpg",
+    "votes": 0,
+    "totalVotes": 0
+  },
+  {
+    "id": 5,
+    "artist": "Greta Van Fleet",
+    "name": "Black Smoke Rising",
+    "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/2544410/1006916188.jpg?v=637018745087570000",
+    "votes": 0,
+    "totalVotes": 0
+  },
+  {
+    "id": 6,
+    "artist": "Truthfully",
+    "name": "DNCE",
+    "image": "https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/b/0/1/c/537411475246628.jpg",
+    "votes": 0,
+    "totalVotes": 0
+  },
+  {
+    "id": 7,
+    "artist": "Max and the Moon",
+    "name": "Losing the Agreement",
+    "image": "https://m.media-amazon.com/images/I/71Yi9z25mkL._SS500_.jpg",
+    "votes": 0,
+    "totalVotes": 0
+  },
+  {
+    "id": 8,
+    "artist": "Train",
+    "name": "Drops of Jupiter",
+    "image": "https://upload.wikimedia.org/wikipedia/pt/9/90/Train-Drops-of-Jupiter.jpg",
+    "votes": 0,
+    "totalVotes": 0
+  }
+]
