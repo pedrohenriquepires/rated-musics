@@ -7,9 +7,13 @@ import { RandomRate, MusicCard } from 'app-components'
 import './list.style.scss'
 
 const sortItems = (array, order) =>
-  array.sort((a, b) =>
-    order === 'DESC' ? b.rating - a.rating : a.rating - b.rating
-  )
+  array.sort((a, b) => {
+    if(a.rating === b.rating) {
+      return order === 'DESC' ? b.totalVotes - a.totalVotes : a.totalVotes - b.totalVotes
+    }
+
+    return order === 'DESC' ? b.rating - a.rating : a.rating - b.rating
+  })
 
 export const List = () => {
   const { orderMusics } = useMusics()

@@ -2,26 +2,21 @@
 .random-rate {
   user-select: none;
   position: relative;
-  top: 0;
-  border: none;
-  padding: 20px 40px 25px;
-  border-radius: 3px;
-  background: #7b97b5;
-  color: #222935;
+  border: 1px solid #7b97b5;
+  padding: 20px 40px;
+  border-radius: 5px;
+  background: transparent;
+  color: #7b97b5;
   transition-duration: .2s;
   font-size: 14px;
   font-weight: 100;
-  box-shadow: inset 0 -5px 0 rgba(#000, 0.3);
 
   &--playing {
-    background: rgb(233, 72, 72);
-    color: #fff;
+    border-color: rgb(233, 72, 72);
+    color: rgb(233, 72, 72);
   }
 
   &:hover {
     cursor: pointer;
-    box-shadow: inset 0 0px 0 rgba(#000, 0.3);
-    padding: 20px 40px;
-    top: 5px;
   }
 }
